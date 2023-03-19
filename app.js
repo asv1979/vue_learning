@@ -1,4 +1,4 @@
-const App = {
+ const App = {
     data() {
         return {
             placeholderMy: 'Enter text here',
@@ -25,13 +25,15 @@ const App = {
                 this.inputValue = ''
             }
         },
+        //в интерполяции можно вызывать не только свойства обьекта data но и методы!
         toUpperCase(item) {
             return item.toUpperCase()
         },
-        removeNote(idx ) { //если нужен еще и event, то в html в функцию передаем $event
+        removeNote(idx) {
+            //(idx, event) если нужен еще и event browser, то в html в функцию передаем $event
+            //но возможно он передается по умолчанию и в html в функцию передавать не нужно?
             this.notes.splice(idx, 1)
         }
-
     }
 }
 
