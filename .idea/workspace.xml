@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8f038dcb-6d7d-4eb5-ba9e-1aacf0414312" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679399560314</updated>
-      <workItem from="1679399563303" duration="1622000" />
+      <workItem from="1679399563303" duration="1923000" />
     </task>
     <task id="LOCAL-00001" summary="DELETE extra files">
       <created>1679399649459</created>
@@ -78,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679400522208</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ADD computed">
+      <created>1679401369180</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679401369180</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="DELETE extra files" />
-    <option name="LAST_COMMIT_MESSAGE" value="DELETE extra files" />
+    <MESSAGE value="ADD computed" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD computed" />
   </component>
 </project>

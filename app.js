@@ -34,7 +34,8 @@ const App = {
             //но возможно он передается по умолчанию и в html в функцию передавать не нужно?
             this.notes.splice(idx, 1)
         },
-        //будет вызвано каждый раз при взаимодействии с this.notes а это потеря производительности,
+        //будет вызвано каждый раз при взаимодействии с this.notes (даже при вводе каждого символа в инпуте)
+        // а это потеря производительности,
         // вместо этого нужно использовать computed
         // doubleCount() {
         //     return this.notes.length * 2;
@@ -45,6 +46,15 @@ const App = {
         // обращаемя к ним через геттеры и сеттеры (без круглых скобок) как к переменным
         doubleCountComputed() {
             return this.notes.length * 2;
+        }
+    },
+    watch: {
+        // по имени переменной создали наблюдатель
+        inputValue(value) {
+            if (value.length > 30) {
+                this.inputValue = '';
+            }
+            console.log('Input Value changed', value)
         }
     }
 }
