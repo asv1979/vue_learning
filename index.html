@@ -15,9 +15,10 @@
                     type="text"
                     :placeholder="placeholderMy"
                     :value="inputValue"
-                    @input="inputChangeHandler"
+                    v-model="inputValue"
                     @keypress.enter="addNewNote"
             />
+            <!--  v-model="inputValue" заменяет @input="inputChangeHandler" и сама вяжет ипут с переменной -->
             <!--  у события  v-on:keypress есть уточнение, например .enter -->
             <!-- v-bind:value="inputValue" sugar is - :value="inputValue" -->
             <!-- v-on:input="inputChangeHandler" sugar is - @input="inputChangeHandler" -->

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f038dcb-6d7d-4eb5-ba9e-1aacf0414312" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="8f038dcb-6d7d-4eb5-ba9e-1aacf0414312" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679399560314</updated>
-      <workItem from="1679399563303" duration="1923000" />
+      <workItem from="1679399563303" duration="2236000" />
     </task>
     <task id="LOCAL-00001" summary="DELETE extra files">
       <created>1679399649459</created>
@@ -84,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679401369180</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ADD watcher">
+      <created>1679401699714</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679401699714</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ADD watcher">
+      <created>1679401788788</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679401788788</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +117,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="DELETE extra files" />
     <MESSAGE value="ADD computed" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD computed" />
+    <MESSAGE value="ADD watcher" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD watcher" />
   </component>
 </project>

@@ -8,9 +8,10 @@ const App = {
         }
     },
     methods: {
-        inputChangeHandler(event) {
-            this.inputValue = event.target.value
-        },
+        //в html v-model="inputValue" заменяет функционал ниже:
+        // inputChangeHandler(event) {
+        //     this.inputValue = event.target.value
+        // },
 
         // в html code: v-on:keypress="inputKeyPress",  вместо этого  v-on:keypress.enter="addNewNote"
         // Здесь мы отлавливали нажатие клавиши Enter
