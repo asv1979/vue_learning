@@ -27,9 +27,12 @@
         <ul class="list" v-if="notes.length !== 0">
             <!-- аналог, v-for="myNote of notes" вместо in ставим for и без скобок без индекса-->
             <li class="list-item" v-for="(myNote, idx) in notes">
-                ({{ idx + 1 }}){{ toUpperCase(myNote) }}
+                ({{ idx + 1 }})&nbsp;{{ toUpperCase(myNote) }}
                 <!-- здесь еще и браузерное событие можем передать $event @click="removeNote(idx, $event) -->
                 <button class="btn danger" @click="removeNote(idx)">Delete</button>
+            </li>
+            <li>
+                <strong>Общее количество: {{ notes.length }}</strong> | Удвоенное: {{ doubleCountComputed }}
             </li>
         </ul>
         <div v-else-if="notes.length === 1"> Added a new!</div>
