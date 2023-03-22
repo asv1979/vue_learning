@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f038dcb-6d7d-4eb5-ba9e-1aacf0414312" name="Default Changelist" comment="" />
+    <list default="true" id="8f038dcb-6d7d-4eb5-ba9e-1aacf0414312" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +49,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679399560314</updated>
-      <workItem from="1679399563303" duration="2236000" />
+      <workItem from="1679399563303" duration="2551000" />
+      <workItem from="1679467829083" duration="2267000" />
     </task>
     <task id="LOCAL-00001" summary="DELETE extra files">
       <created>1679399649459</created>
@@ -96,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679401788788</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="UPDATE link variable with input by model">
+      <created>1679402096523</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679402096523</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,12 +124,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="DELETE extra files" />
     <MESSAGE value="ADD computed" />
     <MESSAGE value="ADD watcher" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD watcher" />
+    <MESSAGE value="UPDATE link variable with input by model" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE link variable with input by model" />
   </component>
 </project>

@@ -26,7 +26,7 @@ const App = {
                 this.inputValue = ''
             }
         },
-        //в интерполяции можно вызывать не только свойства обьекта data но и методы!
+        //в интерполяции можно вызывать не только свойства обьекта data но и methods!
         toUpperCase(item) {
             return item.toUpperCase()
         },

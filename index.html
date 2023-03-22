@@ -9,7 +9,13 @@
 <body>
 <div class="container" id="app">
     <div class="card">
-        <h1>{{ title }}</h1>
+        <h1
+            :style="{
+                color: inputValue.length < 7 ? 'darkblue' : 'darkred',
+                fontSize: inputValue.length < 8 ? '1.5rem' : '2rem',
+            }">
+            {{ title }}
+        </h1>
         <div class="form-control">
             <input
                     type="text"
