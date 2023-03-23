@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,8 @@
       <option name="presentableId" value="Default" />
       <updated>1679399560314</updated>
       <workItem from="1679399563303" duration="2551000" />
-      <workItem from="1679467829083" duration="2267000" />
+      <workItem from="1679467829083" duration="2977000" />
+      <workItem from="1679556553959" duration="1140000" />
     </task>
     <task id="LOCAL-00001" summary="DELETE extra files">
       <created>1679399649459</created>
@@ -108,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679402096523</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ADD style examples">
+      <created>1679473691883</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679473691883</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +141,7 @@
     <MESSAGE value="ADD computed" />
     <MESSAGE value="ADD watcher" />
     <MESSAGE value="UPDATE link variable with input by model" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE link variable with input by model" />
+    <MESSAGE value="ADD style examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD style examples" />
   </component>
 </project>

@@ -55,7 +55,7 @@ const App = {
             if (value.length > 30) {
                 this.inputValue = '';
             }
-            console.log('Input Value changed', value)
+            //console.log('Input Value changed', value)
         }
     }
 }

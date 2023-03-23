@@ -20,11 +20,11 @@
             <input
                     type="text"
                     :placeholder="placeholderMy"
-                    :value="inputValue"
                     v-model="inputValue"
                     @keypress.enter="addNewNote"
             />
-            <!--  v-model="inputValue" заменяет @input="inputChangeHandler" и сама вяжет ипут с переменной -->
+            <!--  v-model="inputValue" заменяет :value="inputValue" и @input="inputChangeHandler"
+            и сама вяжет ипут с переменной -->
             <!--  у события  v-on:keypress есть уточнение, например .enter -->
             <!-- v-bind:value="inputValue" sugar is - :value="inputValue" -->
             <!-- v-on:input="inputChangeHandler" sugar is - @input="inputChangeHandler" -->
@@ -33,8 +33,21 @@
         <hr>
         <ul class="list" v-if="notes.length !== 0">
             <!-- аналог, v-for="myNote of notes" вместо in ставим for и без скобок без индекса-->
-            <li class="list-item" v-for="(myNote, idx) in notes">
-                ({{ idx + 1 }})&nbsp;{{ toUpperCase(myNote) }}
+            <li class="list-item" v-for="(noteElement, idx) in notes">
+                <!-- это первый способ добавления класса  css
+                <span :class="noteElement.length > 5 ? 'primary' : 'bold'">({{ idx + 1 }})&nbsp;{{ toUpperCase(noteElement) }}</span>
+
+                это второй способ добавления класса css
+                <span :class="{
+                    'primary': true, // будет добавлен всегда
+                    'bold': noteElement.length < 5
+                }">({{ idx + 1 }})&nbsp;{{ toUpperCase(noteElement) }}</span>
+
+                третий способ передать массив  в котором или только класс или класс и условие
+                -->
+                <span :class="['bold',{'primary' : noteElement.length > 5}]">
+                    ({{ idx + 1 }})&nbsp;{{ toUpperCase(noteElement) }}
+                </span>
                 <!-- здесь еще и браузерное событие можем передать $event @click="removeNote(idx, $event) -->
                 <button class="btn danger" @click="removeNote(idx)">Delete</button>
             </li>
